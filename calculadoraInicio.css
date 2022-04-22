@@ -1,0 +1,49 @@
+.container{
+    background-color: rgb(125, 240, 144);
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5, 20%);
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', -apple-system, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: solid 1px black;
+}
+h1{
+    text-align: center;
+}
+.visor{
+    background-color: rgb(253, 192, 226);
+    border: solid black 1px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 58px;
+}
+div{
+    margin: 5px;
+    border-radius: 10px;
+    color: #fff;
+    border: solid 1px black;
+    background-color: black;
+}
+.container{
+    width: 204px;
+    height: 350px;
+    text-align: center;
+    line-height: 75px;
+}
+.float, .subtrair{
+    font-size: 50px;
+}
+.float{
+    line-height: 55px;
+}
+.quadrado{
+    line-height: 55px;
+}
+.res{
+    line-height: 120px;
+    height: 128px;
+}
